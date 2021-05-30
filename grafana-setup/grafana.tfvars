@@ -1,0 +1,11 @@
+tenancy-ocid="ocid1.tenancy.oc1..aaaaaaaadvw6fdj4unelrx2sk6sjb7aorcd6uklvb6hcer37xb2vogr7tfya"
+application_compartment_id="ocid1.compartment.oc1..aaaaaaaafkees2onzvmec7niozmagkn75ccomx6jipvebb4ytvfq5gebklga"
+app_subnet_name = "app-sbn"
+grafana_shape = "VM.Standard.E2.1"
+ssh_pub_key = "/root/id_rsa.pub"
+ssh_priv_key = "/root/id_rsa"
+grafana_hostname = "grafana-test"
+grafana_port = 3000
+grafana_listener_name = "grafana-listener"
+grafana_listener_port = 3333 
+load_balancer_display_name = "app-lb"
