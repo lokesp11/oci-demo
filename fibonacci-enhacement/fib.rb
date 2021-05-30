@@ -8,6 +8,11 @@ fib_arr = []
 puts "Enter the number of terms:-"
 n=gets.chomp.to_i
 
+if (n < 1 || n > 100)
+puts "Wrong Sequence Number Provided !!! Sequence Number need to be from 1 to 100"
+exit (1)
+end
+
 puts "The first #{n} terms of Fibonacci series are:-"
 c=1
 while(c<=n+1)
