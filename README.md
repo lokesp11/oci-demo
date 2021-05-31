@@ -25,3 +25,10 @@
  
 **Code enhacement:**
   - Code enhancement logic is kept under fibonacci-enhacement folder using ruby.
+
+**Terraform Commands to be run from respective folder**
+```bash
+terraform init
+terraform plan -var-file *.tfvar (each folder is having its own tfvar to be used)
+terraform apply -var-file *.tfvar (each folder is having its own tfvar to be used)
+```
